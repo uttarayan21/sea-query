@@ -43,6 +43,7 @@ macro_rules! impl_rusqlite_binder {
     };
 }
 
+impl_rusqlite_binder!(TableCreateStatement);
 impl_rusqlite_binder!(SelectStatement);
 impl_rusqlite_binder!(UpdateStatement);
 impl_rusqlite_binder!(InsertStatement);
