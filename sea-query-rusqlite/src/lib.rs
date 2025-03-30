@@ -3,6 +3,7 @@ use rusqlite::{
     Result, ToSql,
 };
 use sea_query::Value;
+use sea_query::{TableCreateStatement};
 use sea_query::{query::*, QueryBuilder};
 
 #[derive(Clone, Debug, PartialEq)]
